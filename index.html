@@ -1,31 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
+    <link rel="icon" type="image/x-icon" href="image-removebg-preview.png">
     <style>
-        body{
-            background-color: rgb(58, 98, 191);
+        body {
+            margin: 0px;
+            background-image: url(Imagens/fundo-do-site.png);
         }
-        p{
-            color: rgb(254, 254, 254);
-            font-family: Century sans-serif;
-            font-size: 35px;
-            
+        .header {
+            font-family:"Cambria", "Georgia";
+            text-align: center;
+            background-color: #365dab;
+            height:220px;
+            box-shadow:dark;
         }
-    .topNavBar {
-        height: 200px;
-        margin: -10px;
-        background-color: rgb(82, 112, 181);
-    }
+        img {
+            margin-top: 12px;
+            width: 16%;
+        }
+        .navbar {
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            margin-top: -20px;
+            margin-left: -200px;
+            margin-right: -200px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            align-items: center;
+            color: aliceblue;
+            font-weight: 550;
+            font-family: Verdana;
+            background-color: #05286e;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #0a3996;
+        }
     </style>
 </head>
 <body>
-  <div class="topNavBar"></div>
-    <div>
-    
+    <div class="header">
+        <img id="logo" src="image-removebg-preview.png" alt="girassol">
     </div>
+    <nav>
+        <ul class="navbar">
+            <li><a href="url">Sobre</a></li>
+            <li><a href="url">Livros</a></li>
+            <li><a href="url">Textos</a></li>
+            <li><a href="url">Músicas</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
