@@ -1,31 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html lang="pt-BR">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="b53a0a88c2af9b2eb1d48b4ae6d61f52-removebg-preview.png"
+  />
+  <head>
     <style>
-        body{
-            background-color: rgb(58, 98, 191);
-        }
-        p{
-            color: rgb(254, 254, 254);
-            font-family: Century sans-serif;
-            font-size: 35px;
-            
-        }
-    .topNavBar {
-        height: 200px;
-        margin: -10px;
-        background-color: rgb(82, 112, 181);
-    }
+      body {
+        margin: 0px;
+        background-image: url(f49e9697edf14a9e0c2276897e93f3ae.jpg);
+        background-size: cover;
+      }
+      .header {
+        font-family: "Cambria", "Georgia";
+        text-align: center;
+        background-color: hsl(220, 30%, 47%);
+        height: 220px;
+      }
+      img {
+        margin-top: 10px;
+        width: 16%;
+      }
+      .navbar {
+        border-radius: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        margin-top: -20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: -250px;
+        padding-bottom: 10px;
+        align-items: center;
+        color: aliceblue;
+        font-weight: 550;
+        font-family: Verdana;
+        background-color: #1e4798;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #0a3996;
+      }
+
+      h1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
     </style>
-</head>
-<body>
-  <div class="topNavBar"></div>
-    <div>
-    
+  </head>
+  <body>
+    <div class="header">
+      <img
+        id="logo"
+        src="b53a0a88c2af9b2eb1d48b4ae6d61f52-removebg-preview.png"
+        alt="Borboleta azul"
+      />
     </div>
-</body>
+    <nav>
+      <ul class="navbar">
+        <li><a href="url">Sobre Mim</a></li>
+        <li><a href="url">Galeria</a></li>
+        <li><a href="url">Livros</a></li>
+        <li><a href="url">Resenhas</a></li>
+      </ul>
+      <h1>
+        <img
+          src="510d5a39b6c51d4c617a4e256a377555.jpg"
+          style="height: 200px; border-radius: 50%; border: 10px solid #0a3996"
+          alt="Foto da autora."
+        />
+      </h1>
+    </nav>
+  </body>
 </html>
